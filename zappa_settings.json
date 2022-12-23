@@ -1,0 +1,12 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "scripts",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-ko7vs5nhk",
+        "manage_roles": false, 
+        "role_name": "LabRole"
+    }
+}
