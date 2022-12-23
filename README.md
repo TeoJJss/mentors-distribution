@@ -4,7 +4,7 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 ```
-
+---
 If you would like to run the web server: 
 ```
 flask run --reload
