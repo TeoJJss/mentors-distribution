@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request, Response
 from flask_cors import CORS
 from run import process as processing
-
+# engine: solution 1, 
+# run: solution 2 #
 
 app=Flask(__name__)
 app.config['SECRET_KEY'] = 'you-will-never-guess'
@@ -17,7 +18,6 @@ def upload_file():
     filename=(file.filename).split(".")[0]
     if file:
         df=processing(file)
-    # return ""
         return Response(
             df.to_csv(),
             mimetype='text/csv',

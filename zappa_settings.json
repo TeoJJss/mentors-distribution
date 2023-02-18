@@ -7,6 +7,8 @@
         "runtime": "python3.9",
         "s3_bucket": "zappa-ko7vs5nhk",
         "manage_roles": false, 
-        "role_name": "LabRole"
+        "role_name": "LabRole", 
+        "keep_warm": true,
+        "timeout_seconds": 300
     }
 }
